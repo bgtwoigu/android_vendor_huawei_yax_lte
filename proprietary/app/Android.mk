@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),y560)
+ifeq ($(TARGET_DEVICE),yax_lte)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
